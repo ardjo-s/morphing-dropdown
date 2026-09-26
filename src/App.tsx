@@ -53,7 +53,7 @@ export default function App() {
             <p className="text-[12px] font-medium uppercase tracking-[0.2em] text-[var(--mute)]">
               Public interface study · 001
             </p>
-            <h1 className="display mt-4 max-w-[14ch] text-[64px] leading-[0.92] text-[var(--ink)] sm:text-[84px]">
+            <h1 className="display mt-4 max-w-[13ch] text-[60px] leading-[1.02] text-[var(--ink)] sm:text-[78px]">
               The trigger becomes the panel.
             </h1>
             <p className="mt-6 max-w-md text-[17px] leading-7 text-[var(--mute)]">
@@ -105,7 +105,7 @@ export default function App() {
             <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
               <div>
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[var(--mute)]">Playground</p>
-                <h2 className="display mt-2 text-[40px] leading-none">Four ways it opens.</h2>
+                <h2 className="display mt-2 text-[40px] leading-[1.1]">Four ways it opens.</h2>
               </div>
               <p className="max-w-sm text-[14px] leading-6 text-[var(--mute)]">
                 Default, multi-select, nested sections, and a keyboard-first command list. Each uses
@@ -119,14 +119,14 @@ export default function App() {
                 return (
                   <article
                     key={variant}
-                    className="min-h-[320px] rounded-[28px] border border-[var(--rule)] bg-[rgba(255,255,255,0.45)] p-6"
+                    className="min-h-[360px] overflow-visible rounded-[28px] border border-[var(--rule)] bg-[rgba(255,255,255,0.45)] p-6"
                   >
                     <p className="text-[11px] uppercase tracking-[0.16em] text-[var(--mute)]">
                       {copy.eyebrow}
                     </p>
                     <h3 className="display mt-2 text-[28px]">{copy.title}</h3>
                     <p className="mt-2 max-w-sm text-[14px] leading-6 text-[var(--mute)]">{copy.body}</p>
-                    <div className="mt-8 flex min-h-[180px] items-start">
+                    <div className="mt-8 flex min-h-[220px] items-start">
                       {variant === "default" ? (
                         <MorphDropdown
                           label="Destination"

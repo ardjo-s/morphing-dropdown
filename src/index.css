@@ -80,7 +80,8 @@ body::before {
 
 .display {
   font-family: var(--font-serif);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.015em;
+  word-spacing: 0.08em;
 }
 
 .kbd {

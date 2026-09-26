@@ -350,7 +350,7 @@ export function MorphDropdown(props: MorphDropdownProps) {
         ref={panelRef}
         animate={{ height, width: open ? panelWidth : 240 }}
         transition={transition}
-        className="morph-shell relative z-20 overflow-hidden"
+        className="morph-shell relative z-20 overflow-hidden text-[var(--paper)]"
         onKeyDown={onPanelKeyDown}
       >
         <div ref={measureRef}>
