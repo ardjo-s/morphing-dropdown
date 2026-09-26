@@ -125,7 +125,7 @@ npm run deploy:preview
 
 Wrangler prints a live `*.workers.dev` URL and a **claim URL**. Open the claim URL within 60 minutes to attach the deploy to a real Cloudflare account. After claiming, connect the GitHub repo to Pages (Option A) for a stable `*.pages.dev` hostname.
 
-`wrangler.jsonc` is already configured as a single-page application (`not_found_handling: "single-page-application"`). `public/_redirects` also SPA-fallbacks for classic Pages.
+`wrangler.jsonc` is already configured as a single-page application (`not_found_handling: "single-page-application"`). In the Pages dashboard, keep the Vite preset so unknown routes serve `index.html`.
 
 ## Project map
 
